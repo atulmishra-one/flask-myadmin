@@ -19,10 +19,12 @@ from flask import Flask
 from flask_myadmin import FlaskMyAdmin
 
 app = Flask(__name__)
+app.config['FLASK_MYADMIN_HOST'] = 'localhost'
 
 
 # Initialize the extension
-flask_myadmin = FlaskMyAdmin(app, host="localhost")
+flask_myadmin = FlaskMyAdmin()
+flask_myadmin.init_app(app)
 
 ```
 
