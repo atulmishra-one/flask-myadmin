@@ -13,5 +13,5 @@ blueprint = Blueprint(
 
 @blueprint.route('')
 def index():
-    host = current_app.config.get('FLASK_MYADMIN_HOST')
+    host = current_app.config.get('FLASK_MYADMIN_HOST', 'localhost')
     return render_template('flask_myadmin/index.html', host=host)
