@@ -22,8 +22,7 @@ app = Flask(__name__)
 
 
 # Initialize the extension
-flask_myadmin = FlaskMyAdmin(host="localhost")
-flask_myadmin.init_app(app)
+flask_myadmin = FlaskMyAdmin(app, host="localhost")
 
 ```
 
