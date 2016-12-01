@@ -1,0 +1,2 @@
+include flask_myadmin/static/*
+include flask_myadmin/templates/flask_myadmin/*
