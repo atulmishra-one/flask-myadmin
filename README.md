@@ -25,6 +25,6 @@ app = Flask(__name__)
 flask_myadmin = FlaskMyAdmin(host="localhost")
 flask_myadmin.init_app(app)
 
-go to : http://localhost:5000/flask-myadmin
-
 ```
+
+<a href="http://localhost:5000/flask-myadmin">http://localhost:5000/flask-myadmin</a>
