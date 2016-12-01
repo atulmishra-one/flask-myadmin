@@ -1,7 +1,7 @@
 """
 Flask-MyAdmin
 ------
-A Simple Extension for Mysql Web Mangement
+A Simple Extension for Mysql Web Management
 
 """
 from setuptools import setup
